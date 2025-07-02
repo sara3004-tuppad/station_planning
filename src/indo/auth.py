@@ -48,7 +48,7 @@ def show_login_page():
                 border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 background-color: #f8f9fa;">
         <h2 style="text-align: center; color: #1f77b4; margin-bottom: 1rem;">
-            🔐 IndoFast AI Copilot Login
+            🔐 Station Planning Agent Login
         </h2>
     </div>
     """, unsafe_allow_html=True)
