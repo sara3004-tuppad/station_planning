@@ -123,8 +123,8 @@ if __name__ == "__main__":
     add_logout_button()
         
     # Main header
-    st.markdown('<h1 style="font-size: 2.5rem; font-weight: bold; color: #ffffff; text-align: center; margin-bottom: 1rem;">🔋 Station Planning Tool</h1>', unsafe_allow_html=True)
-    st.markdown('<p style="text-align: center; font-size: 1.2rem; color: #ffffff;">Your intelligent assistant for station (QIS) planning</p>', unsafe_allow_html=True)
+    st.markdown('<h1 style="font-size: 2.5rem; font-weight: bold; color: #000000; text-align: center; margin-bottom: 1rem;">🔋 Station Planning Tool</h1>', unsafe_allow_html=True)
+    st.markdown('<p style="text-align: center; font-size: 1.2rem; color: #000000;">Your intelligent assistant for station (QIS) planning</p>', unsafe_allow_html=True)
     
     #Initialize OpenAI client
     openai_client = OPENAI_CALL(OPENAI_API_KEY)
