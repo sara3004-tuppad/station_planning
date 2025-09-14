@@ -90,7 +90,9 @@ class CalculationService:
                 total_energy_required = self._calculate_city_energy_demand(
                     row, vehicle_specs, off_road_vehicle_percentage
                 )
-                
+                ### Hot fix for jaipur
+                if city.lower() == 'jaipur':  
+                    swappable_energy_per_station = 222
             
                 # Calculate stations required
                 if swappable_energy_per_station > 0 and (station_utilization_percentage) > 0:
